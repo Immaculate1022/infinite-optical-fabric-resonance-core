@@ -18,8 +18,9 @@ The **Infinite Optical Fabric (IOF) Resonance Core** is a speculative / conceptu
 - **Kuramoto oscillator synchronization** for phase locking
 - **Golden-ratio (φ ≈ 1.618)** scaled couplings and timing
 - Fibonacci-derived resonance markers
+- Emerging **materials & energy architecture** (TFLN, graphene aerogel, piezo-capacitive stacks, solar assist, toroidal element)
 
-This repository now contains **working simulation code** so anyone can explore the synchronization behavior of the architecture.
+This repository contains **working simulation code** so anyone can explore the synchronization behavior of the architecture, plus open materials and energy concepts.
 
 ## Quick Start — Run the Simulation
 
@@ -37,6 +38,18 @@ python examples/run_resonance.py
 
 The simulation produces order-parameter dynamics and a polar phase snapshot. Typical coherent regimes reach high R values (approaching the conceptual 0.92 target under sufficient coupling).
 
+## Materials & Energy Architecture (Exploratory)
+
+| Layer | Material / Concept | Role |
+|-------|--------------------|------|
+| Optical Manifold | **Thin-Film Lithium Niobate (TFLN)** | Low-loss waveguides, electro-optic phase control, nonlinear functions |
+| Structural Housing | **Graphene Aerogel** | Ultralight enclosure, possible distributed electrodes, thermal/EMI management |
+| Actuation & Storage | **Piezoelectric washer stacks** (with capacitive behavior) | Force generation, vibration harvesting, charge storage |
+| Supplemental Power | **Solar assist** (PV or photothermal) | Continuous low-level energy input |
+| Mechanical / Energy Element | **Toroidal (“engine”) concept** | Compact rotationally symmetric interface for mechanical or electromagnetic coupling |
+
+Full discussion: **[docs/materials-specification.md](docs/materials-specification.md)**
+
 ## Project Structure
 
 ```
@@ -51,6 +64,7 @@ examples/
 docs/
   architecture-notes.md
   math-formalization.md
+  materials-specification.md   ← new
 tests/
   test_core.py
 ```
@@ -92,11 +106,11 @@ See [LICENSE](LICENSE).
 
 ## Contributing
 
-Simulations, improved visualizations, mathematical extensions, hardware mappings, and educational material are all welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+Simulations, improved visualizations, mathematical extensions, hardware mappings, materials exploration, and educational material are all welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Disclaimer
 
-This is a **conceptual / artistic / speculative** architecture with accompanying open simulation code. It is not a description of any currently existing commercial or laboratory photonic system. The code is provided for research, education, and inspiration.
+This is a **conceptual / artistic / speculative** architecture with accompanying open simulation code and materials concepts. It is not a description of any currently existing commercial or laboratory photonic system. The code and documentation are provided for research, education, and inspiration.
 
 ---
 
