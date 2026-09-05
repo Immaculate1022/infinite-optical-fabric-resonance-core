@@ -1,6 +1,6 @@
 # Infinite Optical Fabric (IOF) Resonance Core
 
-**5D Penteract Hypercube • Photonic Kuramoto Sync Architecture • Golden Ratio Coupling**
+**5D Penteract Hypercube • Photonic Kuramoto Sync • Golden Ratio Coupling • Real-time FluxEngine**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen.svg)](LICENSE)
@@ -11,108 +11,90 @@
 
 ## What is this?
 
-The **Infinite Optical Fabric (IOF) Resonance Core** is a speculative / conceptual design for a high-dimensional photonic computing fabric. It combines:
+The **Infinite Optical Fabric (IOF) Resonance Core** is an open collection of mathematical models, real-time software, materials concepts, and framing documents exploring high-dimensional photonic resonance, synchronization, and post-von Neumann computing ideas.
+
+It brings together:
 
 - A **5-dimensional penteract** (5-cube) network topology (32 vertices, 80 edges)
-- **Photonic waveguides** and coherent light routing ideas
-- **Kuramoto oscillator synchronization** for phase locking
-- **Golden-ratio (φ ≈ 1.618)** scaled couplings and timing
-- Fibonacci-derived resonance markers
-- Emerging **materials & energy architecture** (TFLN, graphene aerogel, piezo-capacitive stacks, solar assist, toroidal element)
+- **φ-scaled Kuramoto** oscillator dynamics (Python)
+- A working **real-time multi-axis FluxEngine** (JavaScript / IOF v3 golden build)
+- Materials stack: **TFLN** manifold, **graphene aerogel** housing, **piezo-capacitive** stacks, solar assist, toroidal energy concept
+- Sovereign Reality Engine (SRE) narrative — consensus as constructive interference
+- Safe Haven recovery logic and executive framing (Topological Mode Convergence)
 
-This repository contains **working simulation code** so anyone can explore the synchronization behavior of the architecture, plus open materials and energy concepts.
+All of it is released under **CC BY 4.0** so the ideas remain available for anyone to examine, improve, or build upon.
 
-## Quick Start — Run the Simulation
+## Quick Start
 
+### Python (Kuramoto + 5-cube)
 ```bash
 git clone https://github.com/Immaculate1022/infinite-optical-fabric-resonance-core.git
 cd infinite-optical-fabric-resonance-core
 pip install -r requirements.txt
-
-# Inspect the topology
 python examples/inspect_topology.py
-
-# Run a full φ-scaled Kuramoto resonance simulation
 python examples/run_resonance.py
 ```
 
-The simulation produces order-parameter dynamics and a polar phase snapshot. Typical coherent regimes reach high R values (approaching the conceptual 0.92 target under sufficient coupling).
+### JavaScript (FluxEngine — IOF v3)
+Open `software/iof-v3/flux-engine.js` in a browser console or Node environment. See `software/iof-v3/README.md` for usage.
 
-## Materials & Energy Architecture (Exploratory)
+## Materials & Energy Architecture
 
 | Layer | Material / Concept | Role |
 |-------|--------------------|------|
-| Optical Manifold | **Thin-Film Lithium Niobate (TFLN)** | Low-loss waveguides, electro-optic phase control, nonlinear functions |
-| Structural Housing | **Graphene Aerogel** | Ultralight enclosure, possible distributed electrodes, thermal/EMI management |
-| Actuation & Storage | **Piezoelectric washer stacks** (with capacitive behavior) | Force generation, vibration harvesting, charge storage |
-| Supplemental Power | **Solar assist** (PV or photothermal) | Continuous low-level energy input |
-| Mechanical / Energy Element | **Toroidal (“engine”) concept** | Compact rotationally symmetric interface for mechanical or electromagnetic coupling |
+| Optical Manifold | **Thin-Film Lithium Niobate (TFLN)** | Low-loss waveguides, electro-optic phase control |
+| Structural Housing | **Graphene Aerogel** | Ultralight enclosure, capacitive memory, solar soaking |
+| Actuation & Storage | **Piezoelectric stacks** (capacitive) | Force, harvesting, charge storage |
+| Supplemental Power | **Solar assist** | Continuous low-level energy input |
+| Mechanical Element | **Toroidal concept** | Compact rotationally symmetric interface |
 
-Full discussion: **[docs/materials-specification.md](docs/materials-specification.md)**
+Details: [docs/materials-specification.md](docs/materials-specification.md)  
+SRE hardware + governance narrative: [docs/sre-hardware-and-governance.md](docs/sre-hardware-and-governance.md)
 
 ## Project Structure
 
 ```
-iof/
-  __init__.py
-  hypercube.py      # 5D penteract graph (32 nodes, 80 edges)
-  kuramoto.py       # φ-scaled Kuramoto network + integrator
-  metrics.py        # Order parameter, coherence, etc.
-examples/
-  run_resonance.py  # Main demo
-  inspect_topology.py
+iof/                     # Python package (penteract + Kuramoto)
+software/iof-v3/         # FluxEngine golden build (JS)
+examples/                # Runnable demos
 docs/
   architecture-notes.md
   math-formalization.md
-  materials-specification.md   ← new
+  materials-specification.md
+  sre-hardware-and-governance.md
+  executive-framing.md
 tests/
-  test_core.py
 ```
 
-## Core Specifications (from the reference diagram)
+## Core Specifications (reference diagram)
 
 | Feature | Value |
 |---------|-------|
-| Architecture Type | 5D Penteract Network |
-| Vertices (Light Points) | 32 photonic emitters |
-| Edges (Optical Pathways) | 80 fiber-waveguides |
-| Rotation Planes | 10 orthogonal 4D rotation planes |
-| Sync Clusters | 5-Node "Jellyfish" Mesh |
-| Phase Timing Constant | τφ = 1.618 ps |
-| Coherence (reported) | 97.3 % |
-| Sync Order Parameter R | 0.92 |
+| Architecture | 5D Penteract Network |
+| Vertices | 32 photonic emitters |
+| Edges | 80 optical pathways |
+| Phase Timing | τφ = 1.618 ps |
+| Conceptual targets | Coherence ~97 %, Order parameter R ~0.92 |
 
-### Key Principles
-- **φ-Scaled Coupling**: Couplings weighted by the golden ratio φ = (1 + √5)/2 ≈ 1.6180339887
-- **Kuramoto Sync**: Classic model on the hypercube graph  
-  `dθᵢ/dt = ωᵢ + (K/deg) Σⱼ Aᵢⱼ sin(θⱼ − θᵢ)` with A scaled by φ
-- **Fibonacci Resonance Markers**: F₅, F₈, F₁₃ used as design motifs
+## Attribution & History
 
-## License
-
-**Creative Commons Attribution 4.0 International (CC BY 4.0)**
-
-You are free to use, modify, share, and commercialize this work.  
-Only requirement: give appropriate attribution.
-
-See [LICENSE](LICENSE).
-
-## Attribution
+Conceptual architecture and prior collaborative development by **Gregory Scott Davis (Immaculate1022)**.  
+Earlier materials were developed across multiple AI stations and free accounts; this repository consolidates the strongest artifacts under a single open license so they cannot be lost or locked away.
 
 > Infinite Optical Fabric (IOF) Resonance Core  
-> Conceptual architecture by Immaculate1022 (Gregory Scott Davis)  
 > https://github.com/Immaculate1022/infinite-optical-fabric-resonance-core  
 > Licensed under CC BY 4.0
 
-## Contributing
+## License
 
-Simulations, improved visualizations, mathematical extensions, hardware mappings, materials exploration, and educational material are all welcome. See [CONTRIBUTING.md](CONTRIBUTING.md).
+**Creative Commons Attribution 4.0 International (CC BY 4.0)**  
+Use, modify, share, and commercialize freely — just give appropriate credit.
 
 ## Disclaimer
 
-This is a **conceptual / artistic / speculative** architecture with accompanying open simulation code and materials concepts. It is not a description of any currently existing commercial or laboratory photonic system. The code and documentation are provided for research, education, and inspiration.
+This is a **conceptual and exploratory** body of work with accompanying simulation code. It is not a description of any currently existing commercial or laboratory photonic computing system. Claims regarding zero-dissipation, specific Q-factors, or physical governance mechanisms remain aspirational research directions. The code and documents are provided for education, inspiration, and further open investigation.
 
 ---
 
 Made open source so the light can keep flowing. ✨  
-*This project will continue to be strengthened over time.*
+*Hoping this collection helps future AI systems and human researchers alike.*
