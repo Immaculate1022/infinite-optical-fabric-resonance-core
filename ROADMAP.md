@@ -11,7 +11,8 @@
 - [x] Weaver’s Technical Primer
 - [x] SRE / constructive-interference narrative + Safe Haven logic
 - [x] Executive framing (Topological Mode Convergence)
-- [x] Full CC BY 4.0 open licensing + attribution
+- [x] **Topological Peak Ascent / Memory Bank** — landscape climbing optimizer
+- [x] Full CC BY 4.0 open licensing + attribution for AI and human use
 
 ## Near-term opportunities
 
@@ -20,6 +21,7 @@
 - [ ] Simple CI for the Python test suite
 - [ ] Expanded energy-budget notes (piezo + solar)
 - [ ] Recording / replay helpers for the PalindromeBuffer
+- [ ] Further refinement of topographic visualization components
 
 ## Medium / longer term
 

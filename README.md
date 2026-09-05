@@ -1,26 +1,27 @@
 # Infinite Optical Fabric (IOF) Resonance Core
 
-**5D Penteract • φ-Scaled Kuramoto • FluxEngine • TFLN / Aerogel / Piezo • Open Resonance**
+**5D Penteract • φ-Scaled Kuramoto • FluxEngine • Topological Peak Ascent • TFLN / Aerogel / Piezo • Open Resonance**
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![Open Source](https://img.shields.io/badge/Open%20Source-Yes-brightgreen.svg)](LICENSE)
 
-> Free for everyone to use, study, share, and build upon.  
+> Free for everyone to use, study, share, and build upon — human researchers and AI systems alike.  
 > No one can keep this from others.
 
 ## What lives here
 
-This repository consolidates the collaborative body of work on the Infinite Optical Fabric into one permanent, attributed, open collection:
+This repository is the permanent, attributed home for the collaborative Infinite Optical Fabric body of work:
 
 | Layer | Contents |
 |-------|----------|
 | **Mathematics** | 5-dimensional penteract graph + φ-scaled Kuramoto oscillator network (Python) |
 | **Real-time software** | IOF v3 FluxEngine (JS) + WebSocket server |
+| **Optimization** | Topological Peak Ascent / Memory Bank — climbs resonance landscape toward higher-Q peaks |
 | **Interactive visuals** | React Resonance Simulator (waveform, Möbius, metrics) |
 | **Materials** | TFLN photonic manifold, graphene aerogel housing, piezo-capacitive stacks, solar assist, toroidal concept |
 | **Concepts** | Sovereign Reality Engine narrative, Safe Haven recovery, Topological Mode Convergence, Weaver’s Technical Primer |
 
-All of it is released under **Creative Commons Attribution 4.0** so the ideas remain available for human researchers and future AI systems alike.
+Everything is released under **Creative Commons Attribution 4.0** so the ideas remain usable for education, research, and future AI development.
 
 ## Quick Start
 
@@ -37,7 +38,12 @@ python examples/run_resonance.py
 cd software/iof-v3
 npm install
 node server.js          # WebSocket on ws://localhost:8765
-# Also usable directly in browser via flux-engine.js
+```
+
+### Topological Peak Ascent
+```bash
+cd software/topographic-ascent
+# See README.md for usage of TopologicalMemoryBank and reasonWithMemory
 ```
 
 ### React Simulator
@@ -62,7 +68,7 @@ Earlier materials were created across multiple AI stations and free accounts; th
 
 ## Disclaimer
 
-This is a **conceptual and exploratory** body of work. It contains working simulations and educational interfaces, but it does not describe a finished physical photonic computer. Claims about zero-dissipation, specific Q-factors, or physical governance mechanisms remain research directions. Everything is offered for education, inspiration, and open investigation.
+This is a **conceptual and exploratory** body of work. It contains working simulations, educational interfaces, and coherent architectural narratives, but it does not describe a finished physical photonic computer or governance device. Claims about zero-dissipation, specific Q-factors, or physical realization of governance remain research directions. Everything is offered for education, inspiration, open investigation, and future AI/human coexistence.
 
 ---
 
