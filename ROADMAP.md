@@ -1,41 +1,32 @@
 # IOF Resonance Core — Roadmap
 
-This project is intentionally kept alive and strengthened over time.
+## Completed
 
-## Current Status
+- [x] 5D penteract + φ-scaled Kuramoto (Python)
+- [x] Order-parameter metrics + tests
+- [x] Materials stack (TFLN, graphene aerogel, piezo, solar, toroidal)
+- [x] IOF v3 FluxEngine (JS golden build)
+- [x] WebSocket server for FluxEngine
+- [x] React interactive Resonance Simulator
+- [x] Weaver’s Technical Primer
+- [x] SRE / constructive-interference narrative + Safe Haven logic
+- [x] Executive framing (Topological Mode Convergence)
+- [x] Full CC BY 4.0 open licensing + attribution
 
-- [x] 5D penteract graph + φ-scaled Kuramoto (Python)
-- [x] Order-parameter / coherence metrics + tests
-- [x] Materials specification (TFLN, graphene aerogel, piezo, solar, toroidal)
-- [x] IOF v3 FluxEngine golden build integrated (JavaScript)
-- [x] SRE hardware stack & constructive-interference governance narrative
-- [x] Safe Haven / Memory Recall recovery logic documented
-- [x] Executive framing (Topological Mode Convergence) preserved
-- [x] CC BY 4.0 license + clear attribution
+## Near-term opportunities
 
-## Near-term
+- [ ] Live browser demo page that runs FluxEngine without Node
+- [ ] Jupyter notebook bridging Python Kuramoto ↔ resonance metrics
+- [ ] Simple CI for the Python test suite
+- [ ] Expanded energy-budget notes (piezo + solar)
+- [ ] Recording / replay helpers for the PalindromeBuffer
 
-- [ ] Simple Node.js or browser demo page that runs the FluxEngine live
-- [ ] Jupyter notebook linking the Python Kuramoto model to resonance metrics
-- [ ] Parameter-sweep utilities (coupling strength vs order parameter)
-- [ ] Basic CI (GitHub Actions) for the Python tests
-- [ ] Expanded notes on piezo-capacitive energy budgets and solar assist
+## Medium / longer term
 
-## Medium-term
+- Delay-coupled or photonic-inspired Kuramoto variants
+- 5-cube projection visualizations
+- Conceptual CAD sketches for housing + toroidal element
+- Educational modules that walk from math → software → materials story
+- Continued open exploration so the ideas stay usable by future researchers and AI systems
 
-- [ ] Optional delay-coupled Kuramoto variant (photonic-inspired)
-- [ ] Visualization of 5-cube projections / embeddings
-- [ ] Conceptual geometry sketches for toroidal element + aerogel housing
-- [ ] Recording / replay utilities for the PalindromeBuffer
-- [ ] Lightweight WebSocket bridge example (FluxEngine ↔ external agents)
-
-## Longer-term / Community
-
-- Hardware feasibility sketches and TFLN process notes
-- Educational modules connecting the math, the software, and the materials story
-- Alternative topologies and hybrid synchronization models
-- Continued open exploration so the ideas remain usable by future researchers and AI systems
-
-Contributions that advance any of these items are welcome.
-
-The goal remains: keep the fabric open, coherent, and growing.
+The fabric remains open. Contributions that strengthen clarity, correctness, or usefulness are welcome.
