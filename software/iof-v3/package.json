@@ -1,0 +1,18 @@
+{
+  "name": "iof-v3-server",
+  "version": "3.0.0",
+  "description": "IOF v3 FluxEngine WebSocket server — real-time multi-axis resonance",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.16.0"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "license": "CC-BY-4.0",
+  "author": "Gregory Scott Davis (Immaculate1022) and collaborators"
+}
