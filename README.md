@@ -1,3 +1,5 @@
+> **Note (2026-09-20):** This repository's unique content has been consolidated into the canonical [**IOF-Resonance-Core**](https://github.com/Immaculate1022/IOF-Resonance-Core) repository (see [PR #5](https://github.com/Immaculate1022/IOF-Resonance-Core/pull/5)). Please go there for the latest work. This repository will be archived once the consolidation is reviewed.
+
 # Infinite Optical Fabric (IOF) Resonance Core
 
 **5D Penteract • φ-Scaled Kuramoto • FluxEngine • Topological Peak Ascent • TFLN / Aerogel / Piezo • Open Resonance**
